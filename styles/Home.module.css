@@ -1,3 +1,70 @@
+/* --------- HEADER --------- */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  margin-bottom: 4rem;
+  background-color: black;
+  color: white;
+}
+.header h1,
+.heade p {
+  margin: 0;
+}
+.header a {
+  text-decoration: none;
+  color: white;
+}
+.header h1 {
+  text-transform: uppercase;
+}
+
+/* --------- MAIN --------- */
+
+.section {
+  padding: 4rem 0;
+}
+
+.colOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.colTwo {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.colThree {
+  display: flex;
+  justify-content: center;
+}
+
+/* --------- FOOTER --------- */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  margin-top: 3rem;
+  background-color: black;
+  color: white;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+/* --------- LEGACY --------- */
+
 .container {
   padding: 0 2rem;
 }
@@ -10,22 +77,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
 }
 
 .title a {
