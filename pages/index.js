@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/Header'
+import Footer from '../components/footer'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -168,10 +169,7 @@ export default function Home() {
 
       </main>
 
-      <footer className={styles.footer}>
-        <p>Any reproduction of these images is strickly prohibited without the express permission of the author.</p>
-        <p>&copy; 2006-{new Date().getFullYear()} Eugene Molari Photography</p>
-      </footer>
+      <Footer />
     </>
   )
 }
