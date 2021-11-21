@@ -1,26 +1,3 @@
-/* --------- HEADER --------- */
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem 0;
-  margin-bottom: 4rem;
-  background-color: black;
-  color: white;
-}
-.header h1,
-.heade p {
-  margin: 0;
-}
-.header a {
-  text-decoration: none;
-  color: white;
-}
-.header h1 {
-  text-transform: uppercase;
-}
-
 /* --------- MAIN --------- */
 
 .section {
