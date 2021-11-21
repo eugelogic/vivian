@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
+import Header from '../components/Header'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -12,12 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className={styles.header}>
-        <Link href='/'>
-          <a><h1>Eugene Molari Photography</h1></a>
-        </Link>
-        <p>Carpe Lucem</p>
-      </header>
+      <Header />
 
       <main>
 
