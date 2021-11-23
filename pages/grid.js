@@ -1,8 +1,15 @@
+import Head from 'next/head'
+import Layout from '../components/Layout'
 import styles from '../styles/Grid.module.css'
 
 const Grid = () => {
 
     return (
+        <>
+        <Head>
+            <title>Grid | Eugene Molari Photography</title>
+        </Head>
+        <Layout>
         <main style={{ backgroundColor: 'white' }}>
 
             <div className={`${styles.cards} ${styles.homepageCategoryCards}`}>
@@ -82,6 +89,8 @@ const Grid = () => {
             </div>
 
         </main>
+        </Layout>
+        </>
     )
 }
 
