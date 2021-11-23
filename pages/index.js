@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Layout from '../components/Layout'
 import styles from '../styles/Home.module.css'
 
@@ -12,154 +11,80 @@ export default function Home() {
     <Layout>
     <main>
 
-      <div className={`${styles.section} ${styles.colOne}`}>
-        <figure>
-          <Image
-            src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2017-08/20170831-1555-St_Johns_Tavern-Archway-London.jpg'
-            alt='St Johns Tavern-Archway'
-            width='1080'
-            height='1080'
-          />
-          <figcaption>St Johns Tavern - Archway</figcaption>
-        </figure>
-      </div>
+      <div className={`${styles.cards} ${styles.homepageCategoryCards}`}>
 
-      <div className={`${styles.section} ${styles.colTwo}`}>
-        <figure>
-          <Image
-            src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2017-08/20170831-1555-St_Johns_Tavern-Archway-London.jpg'
-            alt='St Johns Tavern-Archway'
-            width='1080'
-            height='1080'
-          />
-          <figcaption>St Johns Tavern - Archway</figcaption>
-        </figure>
-        <figure>
-          <Image
-            src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2017-08/20170831-1555-St_Johns_Tavern-Archway-London.jpg'
-            alt='St Johns Tavern-Archway'
-            width='1080'
-            height='1080'
-          />
-          <figcaption>St Johns Tavern - Archway</figcaption>
-        </figure>
-      </div>
+        <a href="/architecture/">
+            <div className={`${styles.card} ${styles.architectureCat}`}>
+                <div className="card__title">
+                    <h3>Architecture</h3>
+                </div>
+            </div>
+        </a>
 
-      <div className={`${styles.section} ${styles.colOne}`}>
-        <figure>
-          <Image
-            src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2018-03/20180303-1616-fluorescent-bench-on-south-bank-london-02.jpg'
-            alt='Fluorescent bench on South bank - London'
-            width='1440'
-            height='1080'
-          />
-          <figcaption>Fluorescent bench on South bank - London</figcaption>
-        </figure>
-      </div>
+        <a href="/benches/">
+            <div className={`${styles.card} ${styles.benchesCat}`}>
+                <div className="card__title">
+                    <h3>Benches</h3>
+                </div>
+            </div>
+        </a>
 
-      <div className={`${styles.section} ${styles.colThree}`}>
-        <figure>
-          <Image
-            src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2017-08/20170831-1555-St_Johns_Tavern-Archway-London.jpg'
-            alt='St Johns Tavern-Archway'
-            width='1080'
-            height='1080'
-          />
-          <figcaption>St Johns Tavern - Archway</figcaption>
-        </figure>
-        <figure>
-          <Image
-            src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2017-08/20170831-1555-St_Johns_Tavern-Archway-London.jpg'
-            alt='St Johns Tavern-Archway'
-            width='1080'
-            height='1080'
-          />
-          <figcaption>St Johns Tavern - Archway</figcaption>
-        </figure>
-        <figure>
-          <Image
-            src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2017-08/20170831-1555-St_Johns_Tavern-Archway-London.jpg'
-            alt='St Johns Tavern-Archway'
-            width='1080'
-            height='1080'
-          />
-          <figcaption>St Johns Tavern - Archway</figcaption>
-        </figure>
-      </div>
+        <a href="/aerials/">
+            <div className={`${styles.card} ${styles.aerialsCat}`}>
+                <div className="card__title">
+                    <h3>Aerials</h3>
+                </div>
+            </div>
+        </a>
 
-      <div className={`${styles.section} ${styles.colTwo}`}>
-        <figure>
-          <Image
-            src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2018-03/20180303-1616-fluorescent-bench-on-south-bank-london-02.jpg'
-            alt='Fluorescent bench on South bank - London'
-            width='1440'
-            height='1080'
-          />
-          <figcaption>Fluorescent bench on South bank - London</figcaption>
-        </figure>
-        <figure>
-          <Image
-            src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2018-03/20180303-1616-fluorescent-bench-on-south-bank-london-02.jpg'
-            alt='Fluorescent bench on South bank - London'
-            width='1440'
-            height='1080'
-          />
-          <figcaption>Fluorescent bench on South bank - London</figcaption>
-        </figure>
-      </div>
+        <a href="/flowers/">
+            <div className={`${styles.card} ${styles.flowersCat}`}>
+                <div className="card__title">
+                    <h3>Flowers</h3>
+                </div>
+            </div>
+        </a>
 
-      <div className={`${styles.section} ${styles.colOne}`}>
-        <figure>
-          <Image
-            src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2017-08/20170831-1555-St_Johns_Tavern-Archway-London.jpg'
-            alt='St Johns Tavern-Archway'
-            width='1080'
-            height='1080'
-          />
-          <figcaption>St Johns Tavern - Archway</figcaption>
-        </figure>
-      </div>
+        <a href="/tfl/">
+            <div className={`${styles.card} ${styles.tflCat}`}>
+                <div className="card__title">
+                    <h3>Tfl</h3>
+                </div>
+            </div>
+        </a>
 
-      <div className={`${styles.section} ${styles.colThree}`}>
-        <figure>
-          <Image
-            src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2018-03/20180303-1616-fluorescent-bench-on-south-bank-london-02.jpg'
-            alt='Fluorescent bench on South bank - London'
-            width='1440'
-            height='1080'
-          />
-          <figcaption>Fluorescent bench on South bank - London</figcaption>
-        </figure>
-        <figure>
-          <Image
-            src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2018-03/20180303-1616-fluorescent-bench-on-south-bank-london-02.jpg'
-            alt='Fluorescent bench on South bank - London'
-            width='1440'
-            height='1080'
-          />
-          <figcaption>Fluorescent bench on South bank - London</figcaption>
-        </figure>
-        <figure>
-          <Image
-            src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2018-03/20180303-1616-fluorescent-bench-on-south-bank-london-02.jpg'
-            alt='Fluorescent bench on South bank - London'
-            width='1440'
-            height='1080'
-          />
-          <figcaption>Fluorescent bench on South bank - London</figcaption>
-        </figure>
-      </div>
+        <a href="/vehicles/">
+            <div className={`${styles.card} ${styles.vehiclesCat}`}>
+                <div className="card__title">
+                    <h3>Vehicles</h3>
+                </div>
+            </div>
+        </a>
 
-      <div className={`${styles.section} ${styles.colOne}`}>
-        <figure>
-          <Image
-            src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2017-08/20170831-1555-St_Johns_Tavern-Archway-London.jpg'
-            alt='St Johns Tavern-Archway'
-            width='1080'
-            height='1080'
-          />
-          <figcaption>St Johns Tavern - Archway</figcaption>
-        </figure>
+        <a href="/outdoors/">
+            <div className={`${styles.card} ${styles.outdoorsCat}`}>
+                <div className="card__title">
+                    <h3>Outdoors</h3>
+                </div>
+            </div>
+        </a>
+
+        <a href="/onesixseven/">
+            <div className={`${styles.card} ${styles.onesixsevenCat}`}>
+                <div className="card__title">
+                    <h3>167</h3>
+                </div>
+            </div>
+        </a>
+
+        <a href="/skies/">
+            <div className={`${styles.card} ${styles.skiesCat}`}>
+                <div className="card__title">
+                    <h3>Skies</h3>
+                </div>
+            </div>
+        </a>
+
       </div>
 
     </main>

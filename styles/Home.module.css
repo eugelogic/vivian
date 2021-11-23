@@ -1,124 +1,87 @@
-/* --------- MAIN --------- */
-
-.section {
-  padding: 4rem 0;
-}
-
-.colOne {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.colTwo {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.colThree {
-  display: flex;
-  justify-content: center;
-}
-
-/* --------- LEGACY --------- */
-
-.container {
-  padding: 0 2rem;
-}
-
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.25rem;
+  padding: 1.25rem;
 }
 
 .card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
+  min-height: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aerialsCat,
+.architectureCat,
+.benchesCat,
+.flowersCat,
+.onesixsevenCat,
+.outdoorsCat,
+.skiesCat,
+.tflCat,
+.vehiclesCat {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aerialsCat {
+  background-image: url('/st-eval-airfield-20160713.jpeg');
+}
+.architectureCat {
+  background-image: url('/battersea-power-station-buildings-20170509.jpeg');
+}
+.benchesCat {
+  background-image: url('/fluorescent-bench-on-south-bank-london-20180303.jpeg');
+}
+.flowersCat {
+  background-image: url('/purple-flower-20170803.jpeg');
+}
+.onesixsevenCat {
+  background-image: url('/work-station-by-night-@-167-20170606.jpeg');
+}
+.outdoorsCat {
+  background-image: url('/hampstead-heath-tree-20170625.jpeg');
+}
+.skiesCat {
+  background-image: url('/twilight-over-falmouth-harbour-20170730.jpeg');
+}
+.tflCat {
+  background-image: url('/tufnell-park-station-stairs-20170806.jpeg');
+}
+.vehiclesCat {
+  background-image: url('/classic-car-mercedes-on-tufnell-park-road-london-20170824.jpeg');
+}
+
+.cards a {
   text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  color: white;
+  font-size: 2.5rem;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.cards a:hover,
+.cards a:focus,
+.cards a:active {
+  outline: 1px solid white;
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+@media screen and (max-width: 960px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.75rem;
+    padding: 0.75rem;
+  }
+  .card {
+    min-height: 24vh;
+  }
 }
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+@media screen and (max-width: 600px) {
+  .cards {
+    display: block;
+  }
+  .card {
+    margin-bottom: 0.5rem;
+    min-height: 50vw;
   }
 }
