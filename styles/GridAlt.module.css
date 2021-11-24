@@ -1,0 +1,23 @@
+.pageIntro {
+  text-align: center;
+}
+.pageIntro h1 {
+  font-size: 1.5rem;
+}
+.pageIntro a {
+  color: white;
+}
+
+.cards {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 0.25rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+}
+
+.cards figure {
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem;
+}
