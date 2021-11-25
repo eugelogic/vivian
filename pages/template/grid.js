@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Layout from '../components/Layout'
-import styles from '../styles/Grid.module.css'
+import Layout from '../../components/Layout'
+import styles from '../../styles/Grid.module.css'
 
 const Grid = () => {
 
