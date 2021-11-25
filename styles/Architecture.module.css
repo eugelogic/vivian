@@ -18,23 +18,27 @@
   align-items: center;
 }
 
-.aerialsCat,
-.architectureCat,
-.benchesCat,
-.floraCat,
-.homeCat,
-.outdoorsCat,
-.skiesCat,
-.tflCat,
-.vehiclesCat {
+.card h3 {
+  text-align: center;
+  margin: 0;
+}
+
+.architectureCat {
   background-image: url('/gasholder.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.levertonSt {
+  background-image: url('/leverton-street-20180520.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .cards a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 2rem;
 }
 

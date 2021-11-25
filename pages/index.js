@@ -13,7 +13,7 @@ export default function Home() {
 
       <div className={`${styles.cards} ${styles.homepageCategoryCards}`}>
 
-        <a href="/architecture/">
+        <a href="/category/architecture/">
             <div className={`${styles.card} ${styles.architectureCat}`}>
                 <div className="card__title">
                     <h3>Architecture</h3>
