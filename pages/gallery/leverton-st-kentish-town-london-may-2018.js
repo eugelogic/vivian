@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Layout from '../components/Layout'
-import styles from '../styles/GridAlt.module.css'
+import Layout from '../../components/Layout'
+import styles from '../../styles/GridAlt.module.css'
 
 const LevertonSt = () => {
 
