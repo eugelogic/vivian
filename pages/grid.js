@@ -38,10 +38,10 @@ const Grid = () => {
                     </div>
                 </a>
 
-                <a href="/category/flowers/">
-                    <div className={`${styles.card} ${styles.flowersCat}`}>
+                <a href="/category/flora/">
+                    <div className={`${styles.card} ${styles.floraCat}`}>
                         <div className="card__title">
-                            <h3>Flowers</h3>
+                            <h3>Flora</h3>
                         </div>
                     </div>
                 </a>
@@ -70,10 +70,10 @@ const Grid = () => {
                     </div>
                 </a>
 
-                <a href="/category/onesixseven/">
-                    <div className={`${styles.card} ${styles.onesixsevenCat}`}>
+                <a href="/category/home/">
+                    <div className={`${styles.card} ${styles.homeCat}`}>
                         <div className="card__title">
-                            <h3>167</h3>
+                            <h3>Home</h3>
                         </div>
                     </div>
                 </a>

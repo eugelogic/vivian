@@ -16,8 +16,8 @@
 .aerialsCat,
 .architectureCat,
 .benchesCat,
-.flowersCat,
-.onesixsevenCat,
+.floraCat,
+.homeCat,
 .outdoorsCat,
 .skiesCat,
 .tflCat,
@@ -34,10 +34,10 @@
 .benchesCat {
   background-image: url('/fluorescent-bench-on-south-bank-london-20180303.jpeg');
 }
-.flowersCat {
+.floraCat {
   background-image: url('/purple-flower-20170803.jpeg');
 }
-.onesixsevenCat {
+.homeCat {
   background-image: url('/work-station-by-night-@-167-20170606.jpeg');
 }
 .outdoorsCat {

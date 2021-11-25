@@ -37,10 +37,10 @@ export default function Home() {
             </div>
         </a>
 
-        <a href="/flowers/">
-            <div className={`${styles.card} ${styles.flowersCat}`}>
+        <a href="/flora/">
+            <div className={`${styles.card} ${styles.floraCat}`}>
                 <div className="card__title">
-                    <h3>Flowers</h3>
+                    <h3>Flora</h3>
                 </div>
             </div>
         </a>
@@ -69,10 +69,10 @@ export default function Home() {
             </div>
         </a>
 
-        <a href="/onesixseven/">
-            <div className={`${styles.card} ${styles.onesixsevenCat}`}>
+        <a href="/home/">
+            <div className={`${styles.card} ${styles.homeCat}`}>
                 <div className="card__title">
-                    <h3>167</h3>
+                    <h3>Home</h3>
                 </div>
             </div>
         </a>
