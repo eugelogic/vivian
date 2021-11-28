@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import Layout from '../../components/Layout'
 import styles from '../../styles/Architecture.module.css'
 
@@ -18,59 +19,59 @@ const Grid = () => {
 
             <div className={styles.cards}>
 
-                <a href="/gallery/leverton-st-kentish-town-london-may-2018">
+                <Link href="/gallery/leverton-st-kentish-town-london-may-2018"><a>
                     <div className={`${styles.card} ${styles.levertonSt}`}>
                         <h3>Leverton Street - Kentish Town - London May 2018</h3>
                     </div>
-                </a>
+                </a></Link>
 
-                <a href="#">
+                <Link href="/category/architecture/"><a>
                     <div className={`${styles.card} ${styles.architectureCat}`}>
                         <h3>Architecture</h3>
                     </div>
-                </a>
+                </a></Link>
 
-                <a href="/category/architecture/">
+                <Link href="/category/architecture/"><a>
                     <div className={`${styles.card} ${styles.architectureCat}`}>
                         <h3>Architecture</h3>
                     </div>
-                </a>
+                </a></Link>
 
-                <a href="/category/architecture/">
+                <Link href="/category/architecture/"><a>
                     <div className={`${styles.card} ${styles.architectureCat}`}>
                         <h3>Architecture</h3>
                     </div>
-                </a>
+                </a></Link>
 
-                <a href="/category/architecture/">
+                <Link href="/category/architecture/"><a>
                     <div className={`${styles.card} ${styles.architectureCat}`}>
                         <h3>Architecture</h3>
                     </div>
-                </a>
+                </a></Link>
 
-                <a href="/category/architecture/">
+                <Link href="/category/architecture/"><a>
                     <div className={`${styles.card} ${styles.architectureCat}`}>
                         <h3>Architecture</h3>
                     </div>
-                </a>
+                </a></Link>
 
-                <a href="/category/architecture/">
+                <Link href="/category/architecture/"><a>
                     <div className={`${styles.card} ${styles.architectureCat}`}>
                         <h3>Architecture</h3>
                     </div>
-                </a>
+                </a></Link>
 
-                <a href="/category/architecture/">
+                <Link href="/category/architecture/"><a>
                     <div className={`${styles.card} ${styles.architectureCat}`}>
                         <h3>Architecture</h3>
                     </div>
-                </a>
+                </a></Link>
 
-                <a href="/category/architecture/">
+                <Link href="/category/architecture/"><a>
                     <div className={`${styles.card} ${styles.architectureCat}`}>
                         <h3>Architecture</h3>
                     </div>
-                </a>
+                </a></Link>
 
             </div>
 

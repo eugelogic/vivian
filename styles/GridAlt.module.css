@@ -8,6 +8,10 @@
   color: white;
 }
 
+.categoryLink a {
+  text-decoration: none;
+}
+
 .cards {
   max-width: 1800px;
   margin: 0 auto;
