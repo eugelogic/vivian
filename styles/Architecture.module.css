@@ -24,21 +24,21 @@
 }
 
 .architectureCat {
-  background-image: url('/gasholder.jpg');
-  background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/gasholder.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .levertonSt {
-  background-image: url('/leverton-street-20180520.jpeg');
-  background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/leverton-street-20180520.jpeg);
   background-size: cover;
   background-position: center;
 }
 
 .cards a {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 2rem;
 }
 

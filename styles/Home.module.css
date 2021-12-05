@@ -13,6 +13,42 @@
   align-items: center;
 }
 
+.aerialsCat {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/st-eval-airfield-20160713.jpeg);
+}
+.architectureCat {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/battersea-power-station-buildings-20170509.jpeg);
+}
+.benchesCat {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/fluorescent-bench-on-south-bank-london-20180303.jpeg);
+}
+.floraCat {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/purple-flower-20170803.jpeg);
+}
+.homeCat {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/work-station-by-night-@-167-20170606.jpeg);
+}
+.outdoorsCat {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/hampstead-heath-tree-20170625.jpeg);
+}
+.skiesCat {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/twilight-over-falmouth-harbour-20170730.jpeg);
+}
+.tflCat {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/tufnell-park-station-stairs-20170806.jpeg);
+}
+.vehiclesCat {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/classic-car-mercedes-on-tufnell-park-road-london-20170824.jpeg);
+}
 .aerialsCat,
 .architectureCat,
 .benchesCat,
@@ -22,35 +58,8 @@
 .skiesCat,
 .tflCat,
 .vehiclesCat {
-  background-repeat: no-repeat;
   background-size: cover;
-}
-.aerialsCat {
-  background-image: url('/st-eval-airfield-20160713.jpeg');
-}
-.architectureCat {
-  background-image: url('/battersea-power-station-buildings-20170509.jpeg');
-}
-.benchesCat {
-  background-image: url('/fluorescent-bench-on-south-bank-london-20180303.jpeg');
-}
-.floraCat {
-  background-image: url('/purple-flower-20170803.jpeg');
-}
-.homeCat {
-  background-image: url('/work-station-by-night-@-167-20170606.jpeg');
-}
-.outdoorsCat {
-  background-image: url('/hampstead-heath-tree-20170625.jpeg');
-}
-.skiesCat {
-  background-image: url('/twilight-over-falmouth-harbour-20170730.jpeg');
-}
-.tflCat {
-  background-image: url('/tufnell-park-station-stairs-20170806.jpeg');
-}
-.vehiclesCat {
-  background-image: url('/classic-car-mercedes-on-tufnell-park-road-london-20170824.jpeg');
+  background-position: center;
 }
 
 .cards a {
