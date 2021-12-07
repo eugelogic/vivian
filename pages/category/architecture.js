@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../components/Layout'
 import styles from '../../styles/Architecture.module.scss'
+import styles2 from '../../styles/Gallery.module.scss'
 
 const Grid = () => {
 
@@ -13,7 +14,7 @@ const Grid = () => {
         <Layout>
         <main>
 
-            <div className={styles.pageIntro}>
+            <div className={styles2.pageIntro}>
                 <h1>Architecture</h1>
             </div>
 
@@ -25,9 +26,9 @@ const Grid = () => {
                     </div>
                 </a></Link>
 
-                <Link href="/category/architecture/"><a>
-                    <div className={`${styles.card} ${styles.architectureCat}`}>
-                        <h3>Architecture</h3>
+                <Link href="/gallery/archway-london-summer-2017"><a>
+                    <div className={`${styles.card} ${styles.archwaySummer17}`}>
+                        <h3>Archway, London - Summer 2017</h3>
                     </div>
                 </a></Link>
 
