@@ -8,6 +8,16 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1.25rem;
   padding: 1.25rem;
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+  }
+  a:hover,
+  a:focus,
+  a:active {
+    outline: 1px solid white;
+  }
 }
 
 .card {
@@ -16,11 +26,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.card h3 {
-  text-align: center;
-  margin: 0;
+  h3 {
+    text-align: center;
+    margin: 0;
+  }
 }
 
 .architectureCat {
@@ -34,18 +43,6 @@
     url(/leverton-street-20180520.jpeg);
   background-size: cover;
   background-position: center;
-}
-
-.cards a {
-  text-decoration: none;
-  color: white;
-  font-size: 2rem;
-}
-
-.cards a:hover,
-.cards a:focus,
-.cards a:active {
-  outline: 1px solid white;
 }
 
 @media screen and (max-width: 960px) {

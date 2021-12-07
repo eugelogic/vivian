@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../components/Layout'
-import styles from '../../styles/Grid.module.css'
+import styles from '../../styles/Grid.module.scss'
 
 const Grid = () => {
 

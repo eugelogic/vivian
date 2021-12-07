@@ -3,6 +3,16 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1.25rem;
   padding: 1.25rem;
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem;
+  }
+  a:hover,
+  a:focus,
+  a:active {
+    outline: 1px solid white;
+  }
 }
 
 .card {
@@ -60,18 +70,6 @@
 .vehiclesCat {
   background-size: cover;
   background-position: center;
-}
-
-.cards a {
-  text-decoration: none;
-  color: white;
-  font-size: 2.5rem;
-}
-
-.cards a:hover,
-.cards a:focus,
-.cards a:active {
-  outline: 1px solid white;
 }
 
 @media screen and (max-width: 960px) {
