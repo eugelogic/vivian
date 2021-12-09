@@ -22,6 +22,14 @@ export default function Home() {
             </div>
         </a></Link>
 
+        <Link href="/gallery/reflections/"><a>
+            <div className={`${styles.card} ${styles.reflectionsCat}`}>
+                <div className="card__title">
+                    <h3>Reflections</h3>
+                </div>
+            </div>
+        </a></Link>
+
         <Link href="/category/benches/"><a>
             <div className={`${styles.card} ${styles.benchesCat}`}>
                 <div className="card__title">

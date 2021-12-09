@@ -21,7 +21,7 @@ const ArchwayLondonSummer2017 = () => {
                 <span className={styles2.categoryLink}><Link href="/category/architecture"><a>• ARCHITECTURE •</a></Link></span>
             </div>
 
-            <div className={`${styles.section} ${styles.colOne}`}>
+            <div className={`${styles.section} ${styles.colOneSquare}`}>
                 <figure>
                 <Image
                     src="https://em-p.s3.eu-west-2.amazonaws.com/st-john's-tavern-archway-20170831-eugene-molari.jpg"
@@ -33,7 +33,7 @@ const ArchwayLondonSummer2017 = () => {
                 </figure>
             </div>
 
-            <div className={`${styles.section} ${styles.colOne}`}>
+            <div className={`${styles.section} ${styles.colOneSquare}`}>
                 <figure>
                 <Image
                     src="https://em-p.s3.eu-west-2.amazonaws.com/archway-mall-london-20170803-eugene-molari.jpg"
