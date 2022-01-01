@@ -44,7 +44,7 @@ const Grid = () => {
                     </div>
                 </a></Link>
 
-                <Link href="/category/cornwall/"><a>
+                <Link href="/category/cornwall-videos/"><a>
                     <div className={`${styles.card} ${styles.trelissick}`}>
                         <h3>Videos</h3>
                     </div>
