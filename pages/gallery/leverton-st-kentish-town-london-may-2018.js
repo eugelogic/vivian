@@ -26,7 +26,7 @@ const LevertonSt = () => {
                 <figure>
                     <Image
                         src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2018-05/Leverton_St-Kentish_Town-London-May_2018-01.jpg'
-                        alt='Leverton_St-Kentish_Town-London-May_2018-12'
+                        alt='Leverton Street, Kentish Town, London - May 2018'
                         width='640'
                         height='640'
                     />
@@ -35,7 +35,7 @@ const LevertonSt = () => {
                 <figure>
                     <Image
                         src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2018-05/Leverton_St-Kentish_Town-London-May_2018-02.jpg'
-                        alt='Leverton_St-Kentish_Town-London-May_2018-12'
+                        alt='Leverton Street, Kentish Town, London - May 2018'
                         width='640'
                         height='640'
                     />
@@ -44,7 +44,7 @@ const LevertonSt = () => {
                 <figure>
                     <Image
                         src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2018-05/Leverton_St-Kentish_Town-London-May_2018-03.jpg'
-                        alt='Leverton_St-Kentish_Town-London-May_2018-12'
+                        alt='Leverton Street, Kentish Town, London - May 2018'
                         width='640'
                         height='640'
                     />
@@ -53,7 +53,7 @@ const LevertonSt = () => {
                 <figure>
                     <Image
                         src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2018-05/Leverton_St-Kentish_Town-London-May_2018-04.jpg'
-                        alt='Leverton_St-Kentish_Town-London-May_2018-12'
+                        alt='Leverton Street, Kentish Town, London - May 2018'
                         width='640'
                         height='640'
                     />
@@ -62,7 +62,7 @@ const LevertonSt = () => {
                 <figure>
                     <Image
                         src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2018-05/Leverton_St-Kentish_Town-London-May_2018-05.jpg'
-                        alt='Leverton_St-Kentish_Town-London-May_2018-12'
+                        alt='Leverton Street, Kentish Town, London - May 2018'
                         width='640'
                         height='640'
                     />
@@ -71,7 +71,7 @@ const LevertonSt = () => {
                 <figure>
                     <Image
                         src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2018-05/Leverton_St-Kentish_Town-London-May_2018-06.jpg'
-                        alt='Leverton_St-Kentish_Town-London-May_2018-12'
+                        alt='Leverton Street, Kentish Town, London - May 2018'
                         width='640'
                         height='640'
                     />
@@ -80,7 +80,7 @@ const LevertonSt = () => {
                 <figure>
                     <Image
                         src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2018-05/Leverton_St-Kentish_Town-London-May_2018-07.jpg'
-                        alt='Leverton_St-Kentish_Town-London-May_2018-12'
+                        alt='Leverton Street, Kentish Town, London - May 2018'
                         width='640'
                         height='640'
                     />
@@ -89,7 +89,7 @@ const LevertonSt = () => {
                 <figure>
                     <Image
                         src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2018-05/Leverton_St-Kentish_Town-London-May_2018-08.jpg'
-                        alt='Leverton_St-Kentish_Town-London-May_2018-12'
+                        alt='Leverton Street, Kentish Town, London - May 2018'
                         width='640'
                         height='640'
                     />
@@ -98,7 +98,7 @@ const LevertonSt = () => {
                 <figure>
                     <Image
                         src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2018-05/Leverton_St-Kentish_Town-London-May_2018-09.jpg'
-                        alt='Leverton_St-Kentish_Town-London-May_2018-12'
+                        alt='Leverton Street, Kentish Town, London - May 2018'
                         width='640'
                         height='640'
                     />
@@ -107,7 +107,7 @@ const LevertonSt = () => {
                 <figure>
                     <Image
                         src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2018-05/Leverton_St-Kentish_Town-London-May_2018-10.jpg'
-                        alt='Leverton_St-Kentish_Town-London-May_2018-12'
+                        alt='Leverton Street, Kentish Town, London - May 2018'
                         width='640'
                         height='640'
                     />
@@ -116,7 +116,7 @@ const LevertonSt = () => {
                 <figure>
                     <Image
                         src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2018-05/Leverton_St-Kentish_Town-London-May_2018-11.jpg'
-                        alt='Leverton_St-Kentish_Town-London-May_2018-12'
+                        alt='Leverton Street, Kentish Town, London - May 2018'
                         width='640'
                         height='640'
                     />
@@ -125,7 +125,7 @@ const LevertonSt = () => {
                 <figure>
                     <Image
                         src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2018-05/Leverton_St-Kentish_Town-London-May_2018-12.jpg'
-                        alt='Leverton_St-Kentish_Town-London-May_2018-12'
+                        alt='Leverton Street, Kentish Town, London - May 2018'
                         width='640'
                         height='640'
                     />
