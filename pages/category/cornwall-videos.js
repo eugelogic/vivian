@@ -24,7 +24,7 @@ const Grid = () => {
                 <Link href="/video/falmouth-pendennis-point/">
                     <a>
                     <div className={`${styles2.card} ${styles3.falmouth}`}>
-                        <h3>Falmouth Pendennis Point</h3>
+                        <h3>Pendennis Point, Falmouth</h3>
                     </div>
                     </a>
                 </Link>

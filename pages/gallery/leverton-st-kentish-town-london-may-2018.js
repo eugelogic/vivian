@@ -16,7 +16,7 @@ const LevertonSt = () => {
             <main>
 
                 <div className={styles1.pageIntro}>
-                    <h1>Leverton St - Kentish Town - London - May 2018</h1>
+                    <h1>Leverton St, Kentish Town, London - May 2018</h1>
                     <p><a href="https://www.google.com/maps/@51.5511464,-0.1398279,3a,75y,94.11h,87.26t/data=!3m6!1e1!3m4!1sLt5fcimOWFHU4MT-_XgPuA!2e0!7i16384!8i8192" target="_blank" rel="noreferrer noopener nofollow">See Leverton Street on Google Maps</a></p>
                     <span className={styles1.categoryLink}><Link href="/category/architecture"><a>• ARCHITECTURE •</a></Link></span>
                 </div>

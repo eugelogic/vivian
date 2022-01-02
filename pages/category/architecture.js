@@ -23,7 +23,7 @@ const Grid = () => {
 
                 <Link href="/gallery/leverton-st-kentish-town-london-may-2018"><a>
                     <div className={`${styles2.card} ${styles3.levertonSt}`}>
-                        <h3>Leverton Street - Kentish Town - London May 2018</h3>
+                        <h3>Leverton Street, Kentish Town, London - May 2018</h3>
                     </div>
                 </a></Link>
 
