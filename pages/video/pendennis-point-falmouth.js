@@ -1,20 +1,22 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import Layout from '../../components/Layout'
 import styles1 from '../../styles/Intro.module.scss'
 import styles2 from '../../styles/Mixed.module.scss'
 
-const FalmouthPendennisPoint = () => {
+const PendennisPointFalmouth = () => {
 
     return (
     <>
         <Head>
-        <title>Falmouth Pendennis Point | Eugene Molari Photography</title>
+        <title>Pendennis Point, Falmouth | Eugene Molari Photography</title>
         </Head>
         <Layout>
             <main>
 
             <div className={styles1.pageIntro}>
-                <h1>Falmouth Pendennis Point</h1>
+                <h1>Pendennis Point, Falmouth</h1>
+                <span className={styles1.categoryLink}><Link href="/category/cornwall-videos"><a>• CORNWALL VIDEOS •</a></Link></span>
             </div>
 
             <div className={`${styles2.section} ${styles2.colOneLandscape}`}>
@@ -30,4 +32,4 @@ const FalmouthPendennisPoint = () => {
     )
 }
 
-export default FalmouthPendennisPoint
+export default PendennisPointFalmouth

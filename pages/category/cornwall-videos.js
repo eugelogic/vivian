@@ -21,7 +21,7 @@ const Grid = () => {
 
             <div className={styles2.cards}>
 
-                <Link href="/video/falmouth-pendennis-point/">
+                <Link href="/video/pendennis-point-falmouth/">
                     <a>
                     <div className={`${styles2.card} ${styles3.falmouth}`}>
                         <h3>Pendennis Point, Falmouth</h3>

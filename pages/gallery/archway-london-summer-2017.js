@@ -17,7 +17,6 @@ const ArchwayLondonSummer2017 = () => {
 
             <div className={styles1.pageIntro}>
                 <h1>Archway, London - Summer 2017</h1>
-                <p><a href="https://www.google.com/maps/@51.5628906,-0.1359766,3a,75y,62.67h,86.8t/data=!3m6!1e1!3m4!1s599t0tuIPlbIIkHe4Vifog!2e0!7i16384!8i8192" target="_blank" rel="noreferrer noopener nofollow">See St John&apos;s Tavern on Google Maps</a></p>
                 <span className={styles1.categoryLink}><Link href="/category/architecture"><a>• ARCHITECTURE •</a></Link></span>
             </div>
 

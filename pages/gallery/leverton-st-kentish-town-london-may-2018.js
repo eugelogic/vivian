@@ -10,7 +10,7 @@ const LevertonSt = () => {
     return (
         <>
         <Head>
-            <title>Leverton St - Kentish Town - London | Eugene Molari Photography</title>
+            <title>Leverton St, Kentish Town, London - May 2018 | Eugene Molari Photography</title>
         </Head>
         <Layout>
             <main>
