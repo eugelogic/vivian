@@ -10,9 +10,14 @@ export default function Home() {
       <title>Home | Eugene Molari Photography</title>
     </Head>
     <Layout>
+
     <main>
 
-      <div className={`${styles.cards} ${styles.homepageCategoryCards}`}>
+        <div className={styles.siteMantra}>
+            <p><i>Carpe Lucem</i></p>
+        </div>
+
+        <div className={`${styles.cards} ${styles.homepageCategoryCards}`}>
 
         <Link href="/category/architecture/"><a>
             <div className={`${styles.card} ${styles.architectureCat}`}>

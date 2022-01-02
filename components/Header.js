@@ -9,9 +9,6 @@ const Header = () => {
                     <a>Eugene Molari Photography</a>
                 </Link>
             </div>
-            <div className={styles.siteDescription}>
-                <p>Carpe Lucem</p>
-            </div>
         </header>
     )
 }
