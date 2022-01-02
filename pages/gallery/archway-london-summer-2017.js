@@ -2,8 +2,8 @@ import Head from 'next/head'
 import Layout from '../../components/Layout'
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '../../styles/Mixed.module.scss'
-import styles2 from '../../styles/Gallery.module.scss'
+import styles1 from '../../styles/Intro.module.scss'
+import styles2 from '../../styles/Mixed.module.scss'
 
 const ArchwayLondonSummer2017 = () => {
 
@@ -15,13 +15,13 @@ const ArchwayLondonSummer2017 = () => {
         <Layout>
             <main>
 
-            <div className={styles2.pageIntro}>
+            <div className={styles1.pageIntro}>
                 <h1>Archway, London - Summer 2017</h1>
                 <p><a href="https://www.google.com/maps/@51.5628906,-0.1359766,3a,75y,62.67h,86.8t/data=!3m6!1e1!3m4!1s599t0tuIPlbIIkHe4Vifog!2e0!7i16384!8i8192" target="_blank" rel="noreferrer noopener nofollow">See St John&apos;s Tavern on Google Maps</a></p>
-                <span className={styles2.categoryLink}><Link href="/category/architecture"><a>• ARCHITECTURE •</a></Link></span>
+                <span className={styles1.categoryLink}><Link href="/category/architecture"><a>• ARCHITECTURE •</a></Link></span>
             </div>
 
-            <div className={`${styles.section} ${styles.colOneSquare}`}>
+            <div className={`${styles2.section} ${styles2.colOneSquare}`}>
                 <figure>
                 <Image
                     src="https://em-p.s3.eu-west-2.amazonaws.com/st-john's-tavern-archway-20170831-eugene-molari.jpg"
@@ -33,7 +33,7 @@ const ArchwayLondonSummer2017 = () => {
                 </figure>
             </div>
 
-            <div className={`${styles.section} ${styles.colOneSquare}`}>
+            <div className={`${styles2.section} ${styles2.colOneSquare}`}>
                 <figure>
                 <Image
                     src="https://em-p.s3.eu-west-2.amazonaws.com/archway-mall-london-20170803-eugene-molari.jpg"

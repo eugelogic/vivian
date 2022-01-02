@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../components/Layout'
-import styles from '../../styles/Cornwall.module.scss'
-import styles2 from '../../styles/Gallery.module.scss'
+import styles1 from '../../styles/Intro.module.scss'
+import styles2 from '../../styles/Grid.module.scss'
+import styles3 from '../../styles/Cornwall.module.scss'
 
 const Grid = () => {
 
@@ -14,62 +15,62 @@ const Grid = () => {
         <Layout>
         <main>
 
-            <div className={styles2.pageIntro}>
+            <div className={styles1.pageIntro}>
                 <h1>Cornwall</h1>
             </div>
 
-            <div className={styles.cards}>
+            <div className={styles2.cards}>
 
                 <Link href="/category/cornwall/"><a>
-                    <div className={`${styles.card} ${styles.cornwallCat}`}>
+                    <div className={`${styles2.card} ${styles3.cornwallCat}`}>
                         <h3>Cornwall</h3>
                     </div>
                 </a></Link>
 
                 <Link href="/category/cornwall/"><a>
-                    <div className={`${styles.card} ${styles.trelissick}`}>
+                    <div className={`${styles2.card} ${styles3.trelissick}`}>
                         <h3>Cornwall</h3>
                     </div>
                 </a></Link>
 
                 <Link href="/category/cornwall/"><a>
-                    <div className={`${styles.card} ${styles.perranporth}`}>
+                    <div className={`${styles2.card} ${styles3.perranporth}`}>
                         <h3>Cornwall</h3>
                     </div>
                 </a></Link>
 
                 <Link href="/category/cornwall/"><a>
-                    <div className={`${styles.card} ${styles.cornwallCat}`}>
+                    <div className={`${styles2.card} ${styles3.cornwallCat}`}>
                         <h3>Cornwall</h3>
                     </div>
                 </a></Link>
 
                 <Link href="/category/cornwall-videos/"><a>
-                    <div className={`${styles.card} ${styles.trelissick}`}>
+                    <div className={`${styles2.card} ${styles3.trelissick}`}>
                         <h3>Videos</h3>
                     </div>
                 </a></Link>
 
                 <Link href="/category/cornwall/"><a>
-                    <div className={`${styles.card} ${styles.perranporth}`}>
+                    <div className={`${styles2.card} ${styles3.perranporth}`}>
                         <h3>Cornwall</h3>
                     </div>
                 </a></Link>
 
                 <Link href="/category/cornwall/"><a>
-                    <div className={`${styles.card} ${styles.cornwallCat}`}>
+                    <div className={`${styles2.card} ${styles3.cornwallCat}`}>
                         <h3>Cornwall</h3>
                     </div>
                 </a></Link>
 
                 <Link href="/category/cornwall/"><a>
-                    <div className={`${styles.card} ${styles.trelissick}`}>
+                    <div className={`${styles2.card} ${styles3.trelissick}`}>
                         <h3>Cornwall</h3>
                     </div>
                 </a></Link>
 
                 <Link href="/category/cornwall/"><a>
-                    <div className={`${styles.card} ${styles.perranporth}`}>
+                    <div className={`${styles2.card} ${styles3.perranporth}`}>
                         <h3>Cornwall</h3>
                     </div>
                 </a></Link>

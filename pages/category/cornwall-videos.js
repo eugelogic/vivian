@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../components/Layout'
-import styles from '../../styles/CornwallVideos.module.scss'
-import styles2 from '../../styles/Gallery.module.scss'
+import styles1 from '../../styles/Intro.module.scss'
+import styles2 from '../../styles/Grid.module.scss'
+import styles3 from '../../styles/CornwallVideos.module.scss'
 
 const Grid = () => {
 
@@ -14,15 +15,15 @@ const Grid = () => {
         <Layout>
         <main>
 
-            <div className={styles2.pageIntro}>
+            <div className={styles1.pageIntro}>
                 <h1>Cornwall Videos</h1>
             </div>
 
-            <div className={styles.cards}>
+            <div className={styles2.cards}>
 
                 <Link href="/video/falmouth-pendennis-point/">
                     <a>
-                    <div className={`${styles.card} ${styles.falmouth}`}>
+                    <div className={`${styles2.card} ${styles3.falmouth}`}>
                         <h3>Falmouth Pendennis Point</h3>
                     </div>
                     </a>
@@ -30,7 +31,7 @@ const Grid = () => {
 
                 <Link href="/category/cornwall-videos/">
                     <a>
-                    <div className={`${styles.card} ${styles.perranporth}`}>
+                    <div className={`${styles2.card} ${styles3.perranporth}`}>
                         <h3>Cornwall Video</h3>
                     </div>
                     </a>
@@ -38,7 +39,7 @@ const Grid = () => {
 
                 <Link href="/category/cornwall-videos/">
                     <a>
-                    <div className={`${styles.card} ${styles.perranporth}`}>
+                    <div className={`${styles2.card} ${styles3.perranporth}`}>
                         <h3>Cornwall Video</h3>
                     </div>
                     </a>
@@ -46,7 +47,7 @@ const Grid = () => {
 
                 <Link href="/category/cornwall-videos/">
                     <a>
-                    <div className={`${styles.card} ${styles.perranporth}`}>
+                    <div className={`${styles2.card} ${styles3.perranporth}`}>
                         <h3>Cornwall Video</h3>
                     </div>
                     </a>
@@ -54,7 +55,7 @@ const Grid = () => {
 
                 <Link href="/category/cornwall-videos/">
                     <a>
-                    <div className={`${styles.card} ${styles.perranporth}`}>
+                    <div className={`${styles2.card} ${styles3.perranporth}`}>
                         <h3>Cornwall Video</h3>
                     </div>
                     </a>
@@ -62,7 +63,7 @@ const Grid = () => {
 
                 <Link href="/category/cornwall-videos/">
                     <a>
-                    <div className={`${styles.card} ${styles.perranporth}`}>
+                    <div className={`${styles2.card} ${styles3.perranporth}`}>
                         <h3>Cornwall Video</h3>
                     </div>
                     </a>
@@ -70,7 +71,7 @@ const Grid = () => {
 
                 <Link href="/category/cornwall-videos/">
                     <a>
-                    <div className={`${styles.card} ${styles.perranporth}`}>
+                    <div className={`${styles2.card} ${styles3.perranporth}`}>
                         <h3>Cornwall Video</h3>
                     </div>
                     </a>
@@ -78,7 +79,7 @@ const Grid = () => {
 
                 <Link href="/category/cornwall-videos/">
                     <a>
-                    <div className={`${styles.card} ${styles.perranporth}`}>
+                    <div className={`${styles2.card} ${styles3.perranporth}`}>
                         <h3>Cornwall Video</h3>
                     </div>
                     </a>
@@ -86,7 +87,7 @@ const Grid = () => {
 
                 <Link href="/category/cornwall-videos/">
                     <a>
-                    <div className={`${styles.card} ${styles.perranporth}`}>
+                    <div className={`${styles2.card} ${styles3.perranporth}`}>
                         <h3>Cornwall Video</h3>
                     </div>
                     </a>

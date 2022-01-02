@@ -2,8 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import Layout from '../../components/Layout'
-import styles from '../../styles/GridAlt.module.scss'
-import styles2 from '../../styles/Gallery.module.scss'
+import styles1 from '../../styles/Intro.module.scss'
+import styles2 from '../../styles/GridAlt.module.scss'
 
 const LevertonSt = () => {
 
@@ -15,13 +15,13 @@ const LevertonSt = () => {
         <Layout>
             <main>
 
-                <div className={styles2.pageIntro}>
+                <div className={styles1.pageIntro}>
                     <h1>Leverton St - Kentish Town - London - May 2018</h1>
                     <p><a href="https://www.google.com/maps/@51.5511464,-0.1398279,3a,75y,94.11h,87.26t/data=!3m6!1e1!3m4!1sLt5fcimOWFHU4MT-_XgPuA!2e0!7i16384!8i8192" target="_blank" rel="noreferrer noopener nofollow">See Leverton Street on Google Maps</a></p>
-                    <span className={styles2.categoryLink}><Link href="/category/architecture"><a>• ARCHITECTURE •</a></Link></span>
+                    <span className={styles1.categoryLink}><Link href="/category/architecture"><a>• ARCHITECTURE •</a></Link></span>
                 </div>
 
-                <div className={styles.cards}>
+                <div className={styles2.cards}>
 
                 <figure>
                     <Image

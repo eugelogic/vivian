@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Layout from '../../components/Layout'
-import styles from '../../styles/Mixed.module.scss'
+import styles1 from '../../styles/Intro.module.scss'
+import styles2 from '../../styles/Mixed.module.scss'
 
 const Mixed = () => {
   return (
@@ -12,7 +13,11 @@ const Mixed = () => {
     <Layout>
     <main>
 
-      <div className={`${styles.section} ${styles.colOne}`}>
+      <div className={styles1.pageIntro}>
+          <h1>Mixed Sections</h1>
+      </div>
+
+      <div className={`${styles2.section} ${styles2.colOneSquare}`}>
         <figure>
           <Image
             src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2017-08/20170831-1555-St_Johns_Tavern-Archway-London.jpg'
@@ -24,7 +29,7 @@ const Mixed = () => {
         </figure>
       </div>
 
-      <div className={`${styles.section} ${styles.colTwo}`}>
+      <div className={`${styles2.section} ${styles2.colTwo}`}>
         <figure>
           <Image
             src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2017-08/20170831-1555-St_Johns_Tavern-Archway-London.jpg'
@@ -45,7 +50,7 @@ const Mixed = () => {
         </figure>
       </div>
 
-      <div className={`${styles.section} ${styles.colOne}`}>
+      <div className={`${styles2.section} ${styles2.colOneLandscape}`}>
         <figure>
           <Image
             src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2018-03/20180303-1616-fluorescent-bench-on-south-bank-london-02.jpg'
@@ -57,7 +62,7 @@ const Mixed = () => {
         </figure>
       </div>
 
-      <div className={`${styles.section} ${styles.colThree}`}>
+      <div className={`${styles2.section} ${styles2.colThree}`}>
         <figure>
           <Image
             src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2017-08/20170831-1555-St_Johns_Tavern-Archway-London.jpg'
@@ -87,49 +92,7 @@ const Mixed = () => {
         </figure>
       </div>
 
-      <div className={`${styles.section} ${styles.colTwo}`}>
-        <figure>
-          <Image
-            src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2018-03/20180303-1616-fluorescent-bench-on-south-bank-london-02.jpg'
-            alt='Fluorescent bench on South bank - London'
-            width='1440'
-            height='1080'
-          />
-          <figcaption>Fluorescent bench on South bank - London</figcaption>
-        </figure>
-        <figure>
-          <Image
-            src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2018-03/20180303-1616-fluorescent-bench-on-south-bank-london-02.jpg'
-            alt='Fluorescent bench on South bank - London'
-            width='1440'
-            height='1080'
-          />
-          <figcaption>Fluorescent bench on South bank - London</figcaption>
-        </figure>
-      </div>
-
-      <div className={`${styles.section} ${styles.colOne}`}>
-        <figure>
-          <Image
-            src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2017-08/20170831-1555-St_Johns_Tavern-Archway-London.jpg'
-            alt='St Johns Tavern-Archway'
-            width='1080'
-            height='1080'
-          />
-          <figcaption>St Johns Tavern - Archway</figcaption>
-        </figure>
-      </div>
-
-      <div className={`${styles.section} ${styles.colThree}`}>
-        <figure>
-          <Image
-            src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2018-03/20180303-1616-fluorescent-bench-on-south-bank-london-02.jpg'
-            alt='Fluorescent bench on South bank - London'
-            width='1440'
-            height='1080'
-          />
-          <figcaption>Fluorescent bench on South bank - London</figcaption>
-        </figure>
+      <div className={`${styles2.section} ${styles2.colTwo}`}>
         <figure>
           <Image
             src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2018-03/20180303-1616-fluorescent-bench-on-south-bank-london-02.jpg'
@@ -150,7 +113,49 @@ const Mixed = () => {
         </figure>
       </div>
 
-      <div className={`${styles.section} ${styles.colOne}`}>
+      <div className={`${styles2.section} ${styles2.colOneSquare}`}>
+        <figure>
+          <Image
+            src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2017-08/20170831-1555-St_Johns_Tavern-Archway-London.jpg'
+            alt='St Johns Tavern-Archway'
+            width='1080'
+            height='1080'
+          />
+          <figcaption>St Johns Tavern - Archway</figcaption>
+        </figure>
+      </div>
+
+      <div className={`${styles2.section} ${styles2.colThree}`}>
+        <figure>
+          <Image
+            src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2018-03/20180303-1616-fluorescent-bench-on-south-bank-london-02.jpg'
+            alt='Fluorescent bench on South bank - London'
+            width='1440'
+            height='1080'
+          />
+          <figcaption>Fluorescent bench on South bank - London</figcaption>
+        </figure>
+        <figure>
+          <Image
+            src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2018-03/20180303-1616-fluorescent-bench-on-south-bank-london-02.jpg'
+            alt='Fluorescent bench on South bank - London'
+            width='1440'
+            height='1080'
+          />
+          <figcaption>Fluorescent bench on South bank - London</figcaption>
+        </figure>
+        <figure>
+          <Image
+            src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2018-03/20180303-1616-fluorescent-bench-on-south-bank-london-02.jpg'
+            alt='Fluorescent bench on South bank - London'
+            width='1440'
+            height='1080'
+          />
+          <figcaption>Fluorescent bench on South bank - London</figcaption>
+        </figure>
+      </div>
+
+      <div className={`${styles2.section} ${styles2.colOneSquare}`}>
         <figure>
           <Image
             src='https://eugebucket.s3-eu-west-1.amazonaws.com/emp/2017-08/20170831-1555-St_Johns_Tavern-Archway-London.jpg'

@@ -2,8 +2,8 @@ import Head from 'next/head'
 import Layout from '../../components/Layout'
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '../../styles/Mixed.module.scss'
-import styles2 from '../../styles/Gallery.module.scss'
+import styles1 from '../../styles/Intro.module.scss'
+import styles2 from '../../styles/Mixed.module.scss'
 
 const Reflections = () => {
 
@@ -15,11 +15,11 @@ const Reflections = () => {
         <Layout>
             <main>
 
-            <div className={styles2.pageIntro}>
+            <div className={styles1.pageIntro}>
                 <h1>Reflections</h1>
             </div>
 
-            <div className={`${styles.section} ${styles.colOnePortrait}`}>
+            <div className={`${styles2.section} ${styles2.colOnePortrait}`}>
                 <figure>
                 <Image
                     src="https://em-p.s3.eu-west-2.amazonaws.com/st-martin's-lane-hotel-london-20150804-eugene-molari.jpg"
@@ -31,7 +31,7 @@ const Reflections = () => {
                 </figure>
             </div>
 
-            <div className={`${styles.section} ${styles.colOneLandscape}`}>
+            <div className={`${styles2.section} ${styles2.colOneLandscape}`}>
                 <figure>
                 <Image
                     src="https://em-p.s3.eu-west-2.amazonaws.com/institute-of-directors-20150325-eugene-molari.jpg"
@@ -43,7 +43,7 @@ const Reflections = () => {
                 </figure>
             </div>
 
-            <div className={`${styles.section} ${styles.colOnePortrait}`}>
+            <div className={`${styles2.section} ${styles2.colOnePortrait}`}>
                 <figure>
                 <Image
                     src="https://em-p.s3.eu-west-2.amazonaws.com/del-parc-junction-road-20150529-eugene-molari.jpg"
