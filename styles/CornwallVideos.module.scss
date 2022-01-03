@@ -1,19 +1,13 @@
+.defaultBg {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://em-p.s3.eu-west-2.amazonaws.com/perranporth-beach-20170401-eugene-molari-bg.jpg);
+}
 .falmouth {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(https://em-p.s3.eu-west-2.amazonaws.com/falmouth-pendennis-point-20200924-eugene-molari-bg.jpeg);
 }
-
-.trelissick {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(https://em-p.s3.eu-west-2.amazonaws.com/trelissick-river-fal-20151008-eugene-molari-bg.jpg);
-}
-.perranporth {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(https://em-p.s3.eu-west-2.amazonaws.com/perranporth-beach-20170401-eugene-molari-bg.jpg);
-}
-.falmouth,
-.trelissick,
-.perranporth {
+.defaultBg,
+.falmouth {
   background-size: cover;
   background-position: center;
 }

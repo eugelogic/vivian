@@ -1,18 +1,12 @@
-.cornwallCat {
+.defaultBg {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(https://em-p.s3.eu-west-2.amazonaws.com/mousehole-harbour-20151010-eugene-molari-bg.jpg);
-}
-
-.trelissick {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(https://em-p.s3.eu-west-2.amazonaws.com/trelissick-river-fal-20151008-eugene-molari-bg.jpg);
 }
 .perranporth {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(https://em-p.s3.eu-west-2.amazonaws.com/perranporth-beach-20170401-eugene-molari-bg.jpg);
 }
-.cornwallCat,
-.trelissick,
+.defaultBg,
 .perranporth {
   background-size: cover;
   background-position: center;

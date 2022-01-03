@@ -22,55 +22,55 @@ const Grid = () => {
             <div className={styles2.cards}>
 
                 <Link href="/category/cornwall/"><a>
-                    <div className={`${styles2.card} ${styles3.cornwallCat}`}>
+                    <div className={`${styles2.card} ${styles3.defaultBg}`}>
                         <h3>Cornwall</h3>
                     </div>
                 </a></Link>
 
                 <Link href="/category/cornwall/"><a>
-                    <div className={`${styles2.card} ${styles3.trelissick}`}>
+                    <div className={`${styles2.card} ${styles3.defaultBg}`}>
                         <h3>Cornwall</h3>
                     </div>
                 </a></Link>
 
                 <Link href="/category/cornwall/"><a>
-                    <div className={`${styles2.card} ${styles3.perranporth}`}>
+                    <div className={`${styles2.card} ${styles3.defaultBg}`}>
                         <h3>Cornwall</h3>
                     </div>
                 </a></Link>
 
                 <Link href="/category/cornwall/"><a>
-                    <div className={`${styles2.card} ${styles3.cornwallCat}`}>
+                    <div className={`${styles2.card} ${styles3.defaultBg}`}>
                         <h3>Cornwall</h3>
                     </div>
                 </a></Link>
 
                 <Link href="/category/cornwall-videos/"><a>
-                    <div className={`${styles2.card} ${styles3.trelissick}`}>
+                    <div className={`${styles2.card} ${styles3.perranporth}`}>
                         <h3>VIDEOS</h3>
                     </div>
                 </a></Link>
 
                 <Link href="/category/cornwall/"><a>
-                    <div className={`${styles2.card} ${styles3.perranporth}`}>
+                    <div className={`${styles2.card} ${styles3.defaultBg}`}>
                         <h3>Cornwall</h3>
                     </div>
                 </a></Link>
 
                 <Link href="/category/cornwall/"><a>
-                    <div className={`${styles2.card} ${styles3.cornwallCat}`}>
+                    <div className={`${styles2.card} ${styles3.defaultBg}`}>
                         <h3>Cornwall</h3>
                     </div>
                 </a></Link>
 
                 <Link href="/category/cornwall/"><a>
-                    <div className={`${styles2.card} ${styles3.trelissick}`}>
+                    <div className={`${styles2.card} ${styles3.defaultBg}`}>
                         <h3>Cornwall</h3>
                     </div>
                 </a></Link>
 
                 <Link href="/category/cornwall/"><a>
-                    <div className={`${styles2.card} ${styles3.perranporth}`}>
+                    <div className={`${styles2.card} ${styles3.defaultBg}`}>
                         <h3>Cornwall</h3>
                     </div>
                 </a></Link>

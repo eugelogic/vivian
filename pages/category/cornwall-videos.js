@@ -31,7 +31,7 @@ const Grid = () => {
 
                 <Link href="/category/cornwall-videos/">
                     <a>
-                    <div className={`${styles2.card} ${styles3.perranporth}`}>
+                    <div className={`${styles2.card} ${styles3.defaultBg}`}>
                         <h3>Cornwall Video</h3>
                     </div>
                     </a>
@@ -39,7 +39,7 @@ const Grid = () => {
 
                 <Link href="/category/cornwall-videos/">
                     <a>
-                    <div className={`${styles2.card} ${styles3.perranporth}`}>
+                    <div className={`${styles2.card} ${styles3.defaultBg}`}>
                         <h3>Cornwall Video</h3>
                     </div>
                     </a>
@@ -47,7 +47,7 @@ const Grid = () => {
 
                 <Link href="/category/cornwall-videos/">
                     <a>
-                    <div className={`${styles2.card} ${styles3.perranporth}`}>
+                    <div className={`${styles2.card} ${styles3.defaultBg}`}>
                         <h3>Cornwall Video</h3>
                     </div>
                     </a>
@@ -55,7 +55,7 @@ const Grid = () => {
 
                 <Link href="/category/cornwall-videos/">
                     <a>
-                    <div className={`${styles2.card} ${styles3.perranporth}`}>
+                    <div className={`${styles2.card} ${styles3.defaultBg}`}>
                         <h3>Cornwall Video</h3>
                     </div>
                     </a>
@@ -63,7 +63,7 @@ const Grid = () => {
 
                 <Link href="/category/cornwall-videos/">
                     <a>
-                    <div className={`${styles2.card} ${styles3.perranporth}`}>
+                    <div className={`${styles2.card} ${styles3.defaultBg}`}>
                         <h3>Cornwall Video</h3>
                     </div>
                     </a>
@@ -71,7 +71,7 @@ const Grid = () => {
 
                 <Link href="/category/cornwall-videos/">
                     <a>
-                    <div className={`${styles2.card} ${styles3.perranporth}`}>
+                    <div className={`${styles2.card} ${styles3.defaultBg}`}>
                         <h3>Cornwall Video</h3>
                     </div>
                     </a>
@@ -79,7 +79,7 @@ const Grid = () => {
 
                 <Link href="/category/cornwall-videos/">
                     <a>
-                    <div className={`${styles2.card} ${styles3.perranporth}`}>
+                    <div className={`${styles2.card} ${styles3.defaultBg}`}>
                         <h3>Cornwall Video</h3>
                     </div>
                     </a>
@@ -87,7 +87,7 @@ const Grid = () => {
 
                 <Link href="/category/cornwall-videos/">
                     <a>
-                    <div className={`${styles2.card} ${styles3.perranporth}`}>
+                    <div className={`${styles2.card} ${styles3.defaultBg}`}>
                         <h3>Cornwall Video</h3>
                     </div>
                     </a>
