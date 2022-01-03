@@ -37,10 +37,10 @@ const Grid = () => {
                     </a>
                 </Link>
 
-                <Link href="/category/cornwall-videos/">
+                <Link href="/video/helford-river-small-motor-boats">
                     <a>
                     <div className={`${styles2.card} ${styles3.defaultBg}`}>
-                        <h3>Cornwall Video</h3>
+                        <h3>Small Motor Boats on the Helford River</h3>
                     </div>
                     </a>
                 </Link>

@@ -1,4 +1,5 @@
-.section {
+.section,
+.sectionAlt {
   padding: 4rem 0;
 }
 
@@ -8,7 +9,8 @@
 .colOneLandscape {
   margin: 0 auto;
 }
-.colOneMobile {
+.colOneMobile,
+.colTwoMobile {
   max-width: 26rem;
 }
 .colOnePortrait {
@@ -21,7 +23,8 @@
   max-width: 65rem;
 }
 
-.colTwo {
+.colTwo,
+.colTwoPortrait {
   display: flex;
   justify-content: space-evenly;
 }
@@ -38,6 +41,15 @@
   .colTwo,
   .colThree {
     display: block;
+  }
+}
+@media (max-width: 900px) {
+  .video {
+    margin-bottom: 4rem;
+  }
+  .colTwoPortrait {
+    flex-direction: column;
+    align-items: center;
   }
 }
 @media (max-width: 1080px) {
