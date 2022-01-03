@@ -2,10 +2,14 @@
   padding: 4rem 0;
 }
 
-.colOneSquare,
+.colOneMobile,
 .colOnePortrait,
+.colOneSquare,
 .colOneLandscape {
   margin: 0 auto;
+}
+.colOneMobile {
+  max-width: 26rem;
 }
 .colOnePortrait {
   max-width: 37rem;

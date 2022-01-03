@@ -29,10 +29,10 @@ const Grid = () => {
                     </a>
                 </Link>
 
-                <Link href="/category/cornwall-videos/">
+                <Link href="/video/marazion-station-beach/">
                     <a>
                     <div className={`${styles2.card} ${styles3.defaultBg}`}>
-                        <h3>Cornwall Video</h3>
+                        <h3>Marazion Station Beach</h3>
                     </div>
                     </a>
                 </Link>
