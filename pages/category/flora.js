@@ -45,7 +45,7 @@ const Category = () => {
                     </div>
                 </a></Link>
 
-                <Link href="/category/flora/"><a>
+                <Link href="/category/flora-videos/"><a>
                     <div className={`${styles2.card} ${styles3.defaultBg}`}>
                         <h3>VIDEOS</h3>
                     </div>
