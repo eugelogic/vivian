@@ -5,7 +5,7 @@ import Image from 'next/image'
 import styles1 from '../../styles/Intro.module.scss'
 import styles2 from '../../styles/Mixed.module.scss'
 
-const Reflections = () => {
+const Gallery = () => {
 
     return (
     <>
@@ -61,4 +61,4 @@ const Reflections = () => {
     )
 }
 
-export default Reflections
+export default Gallery

@@ -5,7 +5,7 @@ import styles1 from '../../styles/Intro.module.scss'
 import styles2 from '../../styles/Mixed.module.scss'
 import styles3 from '../../styles/Video.module.scss'
 
-const MarazionBeach = () => {
+const Video = () => {
 
     return (
     <>
@@ -34,4 +34,4 @@ const MarazionBeach = () => {
     )
 }
 
-export default MarazionBeach
+export default Video

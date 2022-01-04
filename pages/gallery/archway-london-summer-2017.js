@@ -5,7 +5,7 @@ import Image from 'next/image'
 import styles1 from '../../styles/Intro.module.scss'
 import styles2 from '../../styles/Mixed.module.scss'
 
-const ArchwayLondonSummer2017 = () => {
+const Gallery = () => {
 
     return (
     <>
@@ -50,4 +50,4 @@ const ArchwayLondonSummer2017 = () => {
     )
 }
 
-export default ArchwayLondonSummer2017
+export default Gallery

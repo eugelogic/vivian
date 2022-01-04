@@ -5,7 +5,7 @@ import Layout from '../../components/Layout'
 import styles1 from '../../styles/Intro.module.scss'
 import styles2 from '../../styles/GridAlt.module.scss'
 
-const LevertonSt = () => {
+const Gallery = () => {
 
     return (
         <>
@@ -138,4 +138,4 @@ const LevertonSt = () => {
     )
 }
 
-export default LevertonSt
+export default Gallery

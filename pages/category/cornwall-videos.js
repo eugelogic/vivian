@@ -5,7 +5,7 @@ import styles1 from '../../styles/Intro.module.scss'
 import styles2 from '../../styles/Grid.module.scss'
 import styles3 from '../../styles/CornwallVideos.module.scss'
 
-const Grid = () => {
+const Category = () => {
 
     return (
         <>
@@ -101,4 +101,4 @@ const Grid = () => {
     )
 }
 
-export default Grid
+export default Category
