@@ -1,0 +1,13 @@
+.video {
+  width: 100%;
+}
+
+.videoCaption {
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .video {
+    margin-bottom: 4rem;
+  }
+}
