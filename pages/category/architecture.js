@@ -22,55 +22,55 @@ const Category = () => {
             <div className={styles2.cards}>
 
                 <Link href="/gallery/leverton-st-kentish-town-london-may-2018"><a>
-                    <div className={`${styles2.card} ${styles3.levertonSt}`}>
+                    <div className={`${styles2.card} ${styles3.defaultBg}`}>
                         <h3>Leverton Street, Kentish Town, London - May 2018</h3>
                     </div>
                 </a></Link>
 
                 <Link href="/gallery/archway-london-summer-2017"><a>
-                    <div className={`${styles2.card} ${styles3.archwaySummer17}`}>
+                    <div className={`${styles2.card} ${styles3.defaultBg}`}>
                         <h3>Archway, London - Summer 2017</h3>
                     </div>
                 </a></Link>
 
                 <Link href="/category/architecture/"><a>
-                    <div className={`${styles2.card} ${styles3.architectureCat}`}>
+                    <div className={`${styles2.card} ${styles3.defaultBg}`}>
                         <h3>Architecture</h3>
                     </div>
                 </a></Link>
 
                 <Link href="/category/architecture/"><a>
-                    <div className={`${styles2.card} ${styles3.architectureCat}`}>
+                    <div className={`${styles2.card} ${styles3.defaultBg}`}>
                         <h3>Architecture</h3>
                     </div>
                 </a></Link>
 
                 <Link href="/category/architecture/"><a>
-                    <div className={`${styles2.card} ${styles3.architectureCat}`}>
+                    <div className={`${styles2.card} ${styles3.defaultBg}`}>
                         <h3>Architecture</h3>
                     </div>
                 </a></Link>
 
                 <Link href="/category/architecture/"><a>
-                    <div className={`${styles2.card} ${styles3.architectureCat}`}>
+                    <div className={`${styles2.card} ${styles3.defaultBg}`}>
                         <h3>Architecture</h3>
                     </div>
                 </a></Link>
 
                 <Link href="/category/architecture/"><a>
-                    <div className={`${styles2.card} ${styles3.architectureCat}`}>
+                    <div className={`${styles2.card} ${styles3.defaultBg}`}>
                         <h3>Architecture</h3>
                     </div>
                 </a></Link>
 
                 <Link href="/category/architecture/"><a>
-                    <div className={`${styles2.card} ${styles3.architectureCat}`}>
+                    <div className={`${styles2.card} ${styles3.defaultBg}`}>
                         <h3>Architecture</h3>
                     </div>
                 </a></Link>
 
                 <Link href="/category/architecture/"><a>
-                    <div className={`${styles2.card} ${styles3.architectureCat}`}>
+                    <div className={`${styles2.card} ${styles3.defaultBg}`}>
                         <h3>Architecture</h3>
                     </div>
                 </a></Link>

@@ -23,7 +23,7 @@ const Category = () => {
 
                 <Link href="/video/pendennis-point-falmouth/">
                     <a>
-                    <div className={`${styles2.card} ${styles3.falmouth}`}>
+                    <div className={`${styles2.card} ${styles3.defaultBg}`}>
                         <h3>Pendennis Point, Falmouth</h3>
                     </div>
                     </a>
