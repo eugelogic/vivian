@@ -125,6 +125,27 @@ const Mixed = () => {
         </figure>
       </div>
 
+      <div className={`${styles2.section} ${styles2.colTwoPortrait}`}>
+        <figure>
+          <Image
+              src="https://em-p.s3.eu-west-2.amazonaws.com/st-martin's-lane-hotel-london-20150804-eugene-molari.jpg"
+              alt='St Martin&apos;s Lane Hotel - London'
+              width='2448'
+              height='3264'
+          />
+          <figcaption>St Martin&apos;s Lane Hotel - London</figcaption>
+        </figure>
+        <figure>
+          <Image
+              src="https://em-p.s3.eu-west-2.amazonaws.com/st-martin's-lane-hotel-london-20150804-eugene-molari.jpg"
+              alt='St Martin&apos;s Lane Hotel - London'
+              width='2448'
+              height='3264'
+          />
+          <figcaption>St Martin&apos;s Lane Hotel - London</figcaption>
+        </figure>
+      </div>
+
       <div className={`${styles2.section} ${styles2.colThree}`}>
         <figure>
           <Image
@@ -164,6 +185,36 @@ const Mixed = () => {
             height='1080'
           />
           <figcaption>St Johns Tavern - Archway</figcaption>
+        </figure>
+      </div>
+
+      <div className={`${styles2.section} ${styles2.colThree}`}>
+        <figure>
+          <Image
+              src="https://em-p.s3.eu-west-2.amazonaws.com/st-martin's-lane-hotel-london-20150804-eugene-molari.jpg"
+              alt='St Martin&apos;s Lane Hotel - London'
+              width='2448'
+              height='3264'
+          />
+          <figcaption>St Martin&apos;s Lane Hotel - London</figcaption>
+        </figure>
+        <figure>
+          <Image
+              src="https://em-p.s3.eu-west-2.amazonaws.com/st-martin's-lane-hotel-london-20150804-eugene-molari.jpg"
+              alt='St Martin&apos;s Lane Hotel - London'
+              width='2448'
+              height='3264'
+          />
+          <figcaption>St Martin&apos;s Lane Hotel - London</figcaption>
+        </figure>
+        <figure>
+          <Image
+              src="https://em-p.s3.eu-west-2.amazonaws.com/st-martin's-lane-hotel-london-20150804-eugene-molari.jpg"
+              alt='St Martin&apos;s Lane Hotel - London'
+              width='2448'
+              height='3264'
+          />
+          <figcaption>St Martin&apos;s Lane Hotel - London</figcaption>
         </figure>
       </div>
 
