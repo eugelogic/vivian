@@ -3,14 +3,14 @@
   padding: 4rem 0;
 }
 
-.colOneMobile,
+.colOnePortraitVideo,
 .colOnePortrait,
 .colOneSquare,
 .colOneLandscape {
   margin: 0 auto;
 }
-.colOneMobile,
-.colTwoMobile {
+.colOnePortraitVideo,
+.colOneOfTwoPortraitVideo {
   max-width: 26rem;
 }
 .colOnePortrait {
@@ -24,7 +24,7 @@
 }
 
 .colTwo,
-.colTwoPortrait {
+.colTwoPortraitVideo {
   display: flex;
   justify-content: space-evenly;
 }
@@ -44,7 +44,7 @@
   }
 }
 @media (max-width: 900px) {
-  .colTwoPortrait {
+  .colTwoPortraitVideo {
     flex-direction: column;
     align-items: center;
   }

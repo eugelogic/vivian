@@ -20,14 +20,14 @@ const Video = () => {
                 <span className={styles1.categoryLink}><Link href="/category/cornwall-videos"><a>• CORNWALL VIDEOS •</a></Link></span>
             </div>
 
-            <div className={`${styles2.sectionAlt} ${styles2.colTwoPortrait}`}>
-                <div className={styles2.colTwoMobile}>
+            <div className={`${styles2.sectionAlt} ${styles2.colTwoPortraitVideo}`}>
+                <div className={styles2.colOneOfTwoPortraitVideo}>
                     <video className={styles3.video} controls>
                         <source src="https://em-p.s3.eu-west-2.amazonaws.com/helford-river-small-motor-boat-south-20200921-eugene-molari.mp4" type="video/mp4" />
                         Sorry, your browser doesnt support embedded videos.
                     </video>
                 </div>
-                <div className={styles2.colTwoMobile}>
+                <div className={styles2.colOneOfTwoPortraitVideo}>
                     <video className={styles3.video} controls>
                         <source src="https://em-p.s3.eu-west-2.amazonaws.com/helford-river-small-motor-boat-north-20200921-eugene-molari.mp4" type="video/mp4" />
                         Sorry, your browser doesnt support embedded videos.
