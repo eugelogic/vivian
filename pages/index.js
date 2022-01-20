@@ -44,9 +44,9 @@ export default function Home() {
             </div>
         </a></Link>
 
-        <Link href="/category/aerials/"><a>
-            <div className={`${styles1.card} ${styles2.aerialsCat}`}>
-                <h3>Aerials</h3>
+        <Link href="/category/travels/"><a>
+            <div className={`${styles1.card} ${styles2.travelsCat}`}>
+                <h3>Travels</h3>
             </div>
         </a></Link>
 
@@ -83,6 +83,12 @@ export default function Home() {
         <Link href="/category/skies/"><a>
             <div className={`${styles1.card} ${styles2.skiesCat}`}>
                 <h3>Skies</h3>
+            </div>
+        </a></Link>
+
+        <Link href="/category/aerials/"><a>
+            <div className={`${styles1.card} ${styles2.aerialsCat}`}>
+                <h3>Aerials</h3>
             </div>
         </a></Link>
 

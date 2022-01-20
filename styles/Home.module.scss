@@ -45,6 +45,10 @@
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(https://em-p.s3.eu-west-2.amazonaws.com/tufnell-park-tube-station-20170806-eugene-molari-bg.jpeg);
 }
+.travelsCat {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://em-p.s3.eu-west-2.amazonaws.com/london-trieste-20150716-eugene-molari-bg.jpg);
+}
 .vehiclesCat {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(https://em-p.s3.eu-west-2.amazonaws.com/classic-car-mercedes-20170824-eugene-molari-bg.jpeg);
@@ -59,6 +63,7 @@
 .reflectionsCat,
 .skiesCat,
 .tflCat,
+.travelsCat,
 .vehiclesCat {
   background-size: cover;
   background-position: center;
