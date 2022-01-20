@@ -21,9 +21,9 @@ const Category = () => {
 
             <div className={styles2.cards}>
 
-                <Link href="/category/travels/"><a>
+                <Link href="/gallery/gothenburg-2018/"><a>
                     <div className={`${styles2.card} ${styles3.defaultBg}`}>
-                        <h3>Travels</h3>
+                        <h3>Gothenburg 2018</h3>
                     </div>
                 </a></Link>
 
