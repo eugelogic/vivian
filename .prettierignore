@@ -1,8 +1,8 @@
-node_modules
+.cache
+.gitignore
+.next
 
-**/.next/**
-**/_next/**
-**/dist/**
+*.min.js
+**/node_modules/**
 
 yarn.lock
-public
